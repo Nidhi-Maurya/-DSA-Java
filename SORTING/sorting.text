@@ -1,0 +1,41 @@
+ Sorting means to Arrrange in an order of a elemnt 
+
+ Basic Algorithm of sorting= 
+
+1. Bubble Sort 
+2. Selection Sort
+3. Insertion Sort
+4. Counting Sort(Advanced)
+ 
+1. Bubble Sort = large element come to the end of the array bby sawpping with adjacent element.
+  {5,3,2,1,4} unsorted
+  {1,2,3,4,5} increasing order
+  {5,4,3,2,1} decreasing order
+
+  // Time complexity of bubble sort is  O(n2)
+ 
+
+2.SELECTION SORT = pick the Smallest (from unsorted ),put it at the beginning
+
+ its TimeComplexity is O(n2).
+
+++++++++++++ INSERTION SORT++++++++++++ 
+
+ 
+3. INSERTION SORT =pick an elemnt (from unsorted part)& place in the right pos in sorted part
+
+ Time complexity is O(n2)
+
+
+ // Inbuilt Function is used to sort the arrays elemnt without using any Function 
+  It sort the arrays in assending order Function
+
+ import.java.util.Collections;
+ Arrays.sort(arr,Collection.reverseOrder()) // It used for sort elemnt in decreasing order
+
+ // Arrays.sort(arr,si,ei,Collections.reverseOrder())
+ 
+
++++++++++++++++COUNTING SORT+++++++++++
+
+counting sort==min to max range is small then take counting sort apply.
